@@ -90,7 +90,7 @@ public class Lab15st extends java.applet.Applet
 		Expo.drawThickStar(g,510,370,225,8,25);
 		Expo.setColor(g,Expo.blue);
 		Expo.drawThickStar(g,510,370,275,8,25);
-		g.drawImage(picture1,425,285,this);
+		g.drawImage(picture1,425,285,170,175,this);
 		Expo.setFont(g,"Times Roman",Font.PLAIN,20);
 		Expo.drawString(g,"My name is Brendan O'Connell.",30,300);
 		Expo.drawString(g,"Click once to continue.",760,550);
@@ -104,8 +104,7 @@ public class Lab15st extends java.applet.Applet
 		Expo.setColor(g,Expo.yellow);
 		Expo.fillRectangle(g,100,250,900,500);
 		Expo.setColor(g,Expo.chartreuse);
-		g.drawImage(picture3,200,300,this);
-		g.drawImage(picture4,500,280,this);
+		g.drawImage(picture2,150,300,700,150,this);
 		Expo.setColor(g,Expo.blue);
 		Expo.setFont(g,"Times Roman",Font.PLAIN,20);
 		Expo.drawString(g,"I was born in New Jersey on January 14, 2000.",100,200);
@@ -119,8 +118,7 @@ public class Lab15st extends java.applet.Applet
 		Expo.drawString(g,"PAGE 3",200,100);
 		Expo.setColor(g,Expo.darkGreen);
 		Expo.fillRoundedRectangle(g,460,170,960,515,50);
-		g.drawImage(picture5,150,225,this);
-		g.drawImage(picture2,500,193,this);
+		g.drawImage(picture5,510,195,400,300,this);
 		Expo.setFont(g,"Times Roman",Font.PLAIN,20);
 		Expo.drawString(g,"I am currently a sophmore at Vernon Township High School",100,150);
 		Expo.drawString(g,"Click once to continue.",750,550);
@@ -131,8 +129,12 @@ public class Lab15st extends java.applet.Applet
 		//Band/Music
 		Expo.setFont(g,"Impact",Font.BOLD,100);
 		Expo.drawString(g,"PAGE 4",200,100);
-		Expo.setColor(g,Expo.darkGreen);
+		Expo.setColor(g,Expo.blue);
 		Expo.setFont(g,"Times Roman",Font.PLAIN,20);
+		Expo.fillOval(g, 700, 350, 150, 100);
+		g.drawImage(picture4,625, 300,150,100,this);
+		Expo.setColor(g,Expo.red);
+		
 		Expo.drawString(g, "I am on the VTHS drumline", 250, 300);
 	}
 	
@@ -163,8 +165,7 @@ public class Lab15st extends java.applet.Applet
 		Expo.drawString(g,"PAGE 7",200,100);
 		Expo.setColor(g,Expo.darkGreen);
 		Expo.setFont(g,"Times Roman",Font.PLAIN,20);
-		isLastPage = true;
-		Expo.drawString(g,"Thank you for ",750,550);
+		Expo.drawString(g,"Thank you for watching",750,550);
 	}
 
 
